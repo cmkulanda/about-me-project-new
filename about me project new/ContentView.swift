@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  about me project new
 //
-//  Created by scholar on 4/22/23.
+//  Created by scholar on 4/13/25.
 //
 
 import SwiftUI
@@ -28,6 +28,7 @@ struct ContentView: View {
                 Button("some facts about me..") {
                    myFacts = "in my free time, I love to read books, watch films, attend concerts, play tennis, learn songs on my guitar, and drink overly priced matcha lattes. i'm from chicago, il., and i wouldn't live anywhere else! my next concert is blondshell! <33"
                     isClicked = true
+                    // allows text to be seen after button is clicked
                 }
                 .font(Font.custom("Futura", size: 20))
                 .buttonStyle(.borderedProminent)
@@ -37,6 +38,7 @@ struct ContentView: View {
                     .multilineTextAlignment(.center)
                     .padding(20)
                     .font(Font.custom("Futura", size: 18))
+                // connects text to the button
                 
                 Image("me")
                     .resizable()
