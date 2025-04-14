@@ -26,7 +26,7 @@ struct ContentView: View {
                     
                 
                 Button("some facts about me..") {
-                   myFacts = "in my free time, I love to read books, watch films (ladybird supremacy), attend concerts, play tennis, learn songs on my guitar, and drink overly priced matcha lattes. i'm from chicago, il., and i wouldn't live anywhere else! my next concert is boygenius! <33"
+                   myFacts = "in my free time, I love to read books, watch films, attend concerts, play tennis, learn songs on my guitar, and drink overly priced matcha lattes. i'm from chicago, il., and i wouldn't live anywhere else! my next concert is blondshell! <33"
                     isClicked = true
                 }
                 .font(Font.custom("Futura", size: 20))
